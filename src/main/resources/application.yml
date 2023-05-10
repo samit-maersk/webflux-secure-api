@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.springframework.security: TRACE
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:3000/oauth2/jwks
+  application:
+    name: @project.artifactId@

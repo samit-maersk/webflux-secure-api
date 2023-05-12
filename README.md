@@ -30,6 +30,9 @@ To get the token you need to run the following command:
   
   #Token with role ADMIN & USER
   curl http://localhost:3000/oauth2/token?type=admin
+  
+  # Jwk URI is accessable with 
+  http://localhost:3000/oauth2/jwks
 ```
 
 > There are Junit test cases to test the api, method level security and global security.
